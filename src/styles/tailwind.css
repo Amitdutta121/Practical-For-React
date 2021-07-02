@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
 @tailwind base;
 
 /* Your own custom base styles */
@@ -13,3 +17,10 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+.custom_hover_btn {
+  @apply bg-amber-secondary hover:bg-white text-white hover:text-amber-btn_color font-sfpro font-bold py-2 px-10 shadow cursor-pointer ml-0 md:ml-3 border-2 border-white;
+}
+.custom_btn {
+  @apply bg-white text-amber-btn_color font-sfpro font-bold py-3 px-10 shadow cursor-pointer text-sm;
+}
